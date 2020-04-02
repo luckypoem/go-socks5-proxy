@@ -10,7 +10,7 @@ import (
 func main() {
 
 	creadentials := socks5.StaticCredentials{
-		os.Getenv("USER"): os.Getenv("PASSWORD"),
+		os.Getenv("son"): os.Getenv("iloveu"),
 	}
 	authenticator := socks5.UserPassAuthenticator{Credentials: creadentials}
 
